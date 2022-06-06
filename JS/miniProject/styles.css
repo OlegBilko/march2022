@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9d6;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+.btn {
+    background-color: #f3f867;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+    transition: .3s;
+    transform: scale(1.2);
+}
+
+.mainDiv {
+    border-radius: 15px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 3vw;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.eachUser {
+    background-color: #abcaf4;
+    border-radius: 15px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+.wrapUserDetails {
+    padding: 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btnGetPost {
+    width: 70%;
+    margin: 20px auto;
+    display: block;
+}
+
+.company, .address, .geoWord {
+    margin-left: 30px;
+}
+
+.geo {
+    margin-left: 60px;
+}
+.postTitle{
+    background-color: #abcaf4;
+    border-radius: 15px;
+    text-align: center;
+}
+.wrapForTitles{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    margin: 30px auto;
+    width: 90%;
+}
+.postInfo{
+    font-size: 20px;
+    width: 90%;
+    margin: 10px auto;
+    border: 2px solid #0d0dad;
+    border-radius: 15px;
+    padding: 5px;
+}
+.commentBox{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2vw;
+    margin: 30px auto;
+    width: 95%;
+}
+.commentContainer{
+    background-color: #abcaf4;
+    border-radius: 15px;
+    padding: 5px;
+}
